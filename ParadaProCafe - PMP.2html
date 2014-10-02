@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.paradaprocafe.com.br/game/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>ParadaProCafe - PMP</title>
+  
+  	
+  	<meta charset="UTF-8">
+    
+	<script async="" src="./ParadaProCafe - PMP_files/analytics.js"></script><script src="./ParadaProCafe - PMP_files/jquery.min.js"></script>
+    <script src="./ParadaProCafe - PMP_files/jquery-ui.min.js"></script>
+    <script src="./ParadaProCafe - PMP_files/jquery.ui.touch-punch.min.js"></script>
+    <script src="./ParadaProCafe - PMP_files/jquery.center.min.js"></script>
+    <script src="./ParadaProCafe - PMP_files/jquery.msg.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./ParadaProCafe - PMP_files/style.css">
+    <link rel="stylesheet" href="./ParadaProCafe - PMP_files/jquery.ui.css" type="text/css">
+    <link rel="stylesheet" href="./ParadaProCafe - PMP_files/jquery.msg.css" type="text/css">
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-45101054-1', 'paradaprocafe.com.br');
+      ga('send', 'pageview');
+    
+    </script>
+    
+    
+    
+	<script type="text/javascript">
+	
+	
+	
+		$(document).ready(function(){
+			
+		
+			
+			$( ".drag" ).live('mouseover',function(){
+			    $(this).draggable({
+			        revert: function (event, ui) {
+			            //overwrite original position
+			            $(this).data("draggable").originalPosition = {
+			                top: 0,
+			                left: 0
+			            };
+			            //return boolean
+			            return !event;
+			        }
+			    });
+			});
+		
+			
+			$( ".drag" ).live('touchstart',function(){
+			    $(this).draggable({
+			        revert: function (event, ui) {
+			            //overwrite original position
+			            $(this).data("draggable").originalPosition = {
+			                top: 0,
+			                left: 0
+			            };
+			            //return boolean
+			            return !event;
+			        }
+			    });
+			});
+	
+			$( ".drop" ).droppable({
+				
+				activeClass: "td-active",
+				hoverClass: "td-hover",
+				drop: function( event, ui ) {
+					
+					if($(ui.draggable).attr("id")==$(this).attr("id")){
+						
+						$(ui.draggable).remove();
+						$('.hit').text(parseInt($('.hit').text())+1);
+						$( '<li class="sucess"></li>' ).text(ui.draggable.text()).appendTo( this ).addClass('sucess').effect("pulsate", { times:3 }, 800);
+						setTimeout(function() {
+							$('.sucess').removeClass('sucess');
+						}, 3000);
+						
+					} else {
+						$id = ui.draggable.attr("id");
+						$text = ui.draggable.text();
+						$('.error').text((parseInt($('.error').text())+1));
+						$(ui.draggable).remove();
+						$( '<li id="fail"></li>' ).text($text).appendTo( this ).addClass("fail").effect("pulsate", { times:3 }, 800);
+						setTimeout(function() {
+							$('#fail').remove();
+						}, 3000);
+	
+						$( '<div class="ui-draggable drag" id="'+$id+'"></div>').text($text).appendTo(".process");
+					
+					}
+					
+				}
+			});
+		});
+		
+	</script>
+	
+	
+</head>
+
+
+
+
+<body style="cursor: auto;">
+<div class="content">
+  <h1>&nbsp;</h1>
+  <blockquote>
+    <h1>&nbsp; </h1>
+    <div align="center">      <img src="./ParadaProCafe - PMP_files/logo3.png" width="709" height="221" alt=""></div>
+    <div align="center">
+      <table width="703" border="0">
+        <tbody><tr>
+          <th bgcolor="#908e8c" scope="col"><a href="http://www.paradaprocafe.com.br/">HOME</a></th>
+          <th bgcolor="#908e8c" scope="col"><a href="http://www.paradaprocafe.com.br/fernando-kumasaka/">FERNANDO KUMASAKA</a></th>
+          <th bgcolor="#908e8c" scope="col"><a href="http://www.paradaprocafe.com.br/simulado-pmp-2/">SIMULADO PMP</a></th>
+          <th bgcolor="#908e8c" scope="col"><a href="http://www.paradaprocafe.com.br/contato/">CONTATO</a></th>
+        </tr>
+      </tbody></table>
+    </div>
+    <h1 class="clear"><img src="./ParadaProCafe - PMP_files/BASEADO.jpg" width="547" height="57" alt=""></h1>
+  </blockquote>
+  <div class="left">
+		
+			<table class="table1">
+				<thead>
+					<tr>
+						<th scope="col" style="background: none; border:0;"></th>
+													<th scope="col"><b>Iniciação</b></th>
+													<th scope="col"><b>Planejamento</b></th>
+													<th scope="col"><b>Execução</b></th>
+													<th scope="col"><b>Monitoramento e Controle</b></th>
+													<th scope="col"><b>Encerramento</b></th>
+				  </tr>
+				</thead>
+				
+				<tbody>
+											<tr>
+							<th scope="row">Integração</th>
+															<td id="1-1" class="drop ui-droppable">
+									<ul></ul>
+															</td><td id="1-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="1-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="1-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="1-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+																							
+				  </tr>
+											<tr>
+							<th scope="row">Escopo</th>
+															<td id="2-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="2-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="2-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="2-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="2-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Tempo</th>
+															<td id="3-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="3-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="3-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="3-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="3-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Custos</th>
+															<td id="4-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="4-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="4-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="4-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="4-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Qualidade</th>
+															<td id="5-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="5-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="5-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="5-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="5-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Recursos Humanos</th>
+															<td id="6-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="6-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="6-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="6-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="6-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Comunicação</th>
+															<td id="7-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="7-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="7-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="7-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="7-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Risco</th>
+															<td id="8-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="8-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="8-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="8-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="8-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+											<tr>
+							<th scope="row">Aquisições</th>
+															<td id="9-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="9-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="9-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="9-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="9-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+				  </tr>
+													
+			  <tr><th scope="row">Partes Interessadas</th>
+															<td id="10-1" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="10-2" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="10-3" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="10-4" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+															<td id="10-5" class="drop ui-droppable">
+									<ul></ul>
+								</td>
+													</tr>
+												
+									</tbody>
+			</table>
+		
+			<div class="result">
+				<table class="table1 table_result">
+					<tbody>
+				  <tr><th>Corretas</th>
+						<td class="hit">0</td>
+					</tr></tbody>
+				</table>
+				<table class="table1 table_result">
+					<tbody>
+				  <tr><th>Incorretas</th>
+						<td class="error">0</td>
+					</tr></tbody>
+				</table>
+				
+				
+			</div>
+		
+			
+			
+		</div>
+		
+		<div class="right">
+        <div align="right">      <img src="./ParadaProCafe - PMP_files/processos_verde.jpg" margin-right:="" "300px"="" alt=""></div>
+			<div class="process">
+				<h2 class="process_title">Processos</h2>
+									
+                                                                      
+									<div class="drag ui-draggable" id="2-2" style="position: relative; left: 0px; top: 0px;">Criar a EAP</div>
+									<div class="drag ui-draggable" id="3-2" style="position: relative;">Estimar os Recursos das Atividades</div>
+									<div class="drag" id="8-2">Realizar a análise quantitativa dos riscos</div>
+									<div class="drag ui-draggable" id="1-4" style="position: relative;">Realizar o Controle Integrado de Mudanças</div>
+									<div class="drag" id="5-4">Controlar a Qualidade</div>
+									<div class="drag" id="9-3">Conduzir as Aquisições</div>
+									<div class="drag" id="2-2">Definir o Escopo</div>
+									<div class="drag" id="5-3">Realizar a Garantia da Qualidade</div>
+									<div class="drag" id="9-2">Planejar o Gerenciamento das Aquisições</div>
+									<div class="drag" id="2-2">Coletar os Requisitos</div>
+									<div class="drag" id="5-2">Planejar o Gerenciamento da Qualidade</div>
+									<div class="drag" id="1-2">Desenvolver o plano de Gerenciamento do Projeto</div>
+									<div class="drag" id="3-2">Desenvolver o Cronograma</div>
+									<div class="drag" id="7-4">Controlar as Comunicações</div>
+									<div class="drag" id="2-4">Validar o Escopo</div>
+									<div class="drag" id="7-3">Gerenciar as Comunicações do Projeto</div>
+									<div class="drag" id="10-4">Controlar o envolvimento das partes Interessadas</div>
+									<div class="drag" id="4-2">Estimar os Custos</div>
+									<div class="drag" id="8-2">Realizar a análise qualitativa dos riscos</div>
+									<div class="drag" id="1-4">Monitorar e Controlar o Trabalho do Projeto</div>
+									<div class="drag" id="4-2">Planejar o Gerenciamento de Custos</div>
+									<div class="drag" id="8-2">Identificar os Riscos</div>
+									<div class="drag" id="1-3">Orientar e Gerenciar o Trabalho do Projeto</div>
+									<div class="drag" id="3-4">Controlar o Cronograma</div>
+									<div class="drag" id="8-2">Planejar o Gerenciamento dos Riscos</div>
+									<div class="drag" id="10-1">Identificar as partes Interessadas</div>
+									<div class="drag" id="6-3">Mobilizar a equipe do Projeto</div>
+									<div class="drag" id="9-5">Encerrar as Aquisições</div>
+									<div class="drag" id="1-5">Encerrar o Projeto ou Fase</div>
+									<div class="drag" id="4-2">Determinar o Orçamento</div>
+									<div class="drag" id="6-2">Planejar o Gerenciamento dos Recursos Humanos</div>
+									<div class="drag" id="9-4">Controlar as Aquisições</div>
+									<div class="drag" id="3-2">Sequenciar as Atividades</div>
+									<div class="drag" id="7-2">Planejar o Gerenciamento das Comunicações</div>
+									<div class="drag" id="10-3">Gerenciar o envolvimento das partes Interessadas</div>
+									<div class="drag" id="3-2">Definir as Atividades</div>
+									<div class="drag" id="6-3">Gerenciar a equipe do Projeto</div>
+									<div class="drag" id="10-2">Planejar o Gerenciamento das Partes Interessadas</div>
+									<div class="drag" id="3-2">Planejar o Gerenciamento do Cronograma</div>
+									<div class="drag" id="6-3">Desenvolver a equipe do Projeto</div>
+									<div class="drag" id="8-4">Controlar os riscos</div>
+									<div class="drag" id="2-2">Planejar o Gerenciamento do Escopo</div>
+									<div class="drag" id="4-4">Controlar os Custos</div>
+									<div class="drag" id="8-2">Planejar as respostas aos riscos</div>
+								
+									
+									
+						
+					
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+</div>
+
+
+
+
+	 
+	</body></html>

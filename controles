@@ -1,0 +1,202 @@
+PO1.1 Gerenciamento de Valor da TI
+PO1.2 Alinhamento entre TI e Negócio
+PO1.3 Avaliação da Capacidade e Desempenho Correntes
+PO1.4 Plano Estratégico de TI
+PO1.5 Planos Táticos de TI
+PO1.6 Gerenciamento do Portfólio de TI
+PO2.1 Modelo de Arquitetura da Informação da Organização
+PO2.2 Dicionário de Dados Corporativos e Regras de Sintaxe de Dados
+PO2.3 Esquema de Classificação de Dados
+PO2.4 Gerenciamento de Integridade
+PO3.1 Planejamento da Diretriz Tecnológica
+PO3.2 Plano de Infraestrutura Tecnológica
+PO3.3 Monitoramento de Regulamentos e Tendências Futuras
+PO3.4 Padrões Tecnológicos
+PO3.5 Conselho de Arquitetura de TI
+PO4.1 Estrutura de Processos de TI
+PO4.2 Comitê Estratégico de TI
+PO4.3 Comitê Executivo de TI
+PO4.4 Posicionamento Organizacional da área de TI
+PO4.5 Estrutura Organizacional de TI
+PO4.6 Definição de Papéis e Responsabilidades
+PO4.7 Responsabilidade pela Garantia de Qualidade
+PO4.8 Responsabilidade por Riscos, Segurança e Conformidade
+PO4.9 Proprietários de Dados e Sistemas
+PO4.11 Segregação de Funções
+PO4.12 Recrutamento de pessoal de TI
+PO4.13 Pessoal Chave de TI
+PO4.14 Políticas e Procedimentos para Pessoal Contratado
+PO4.15 Relacionamentos
+PO5.1 Estrutura da Administração Financeira
+PO5.2 Priorização dentro do Orçamento de TI
+PO5.3 Processo de Orçamento de TI
+PO5.4 Gerenciamento de Custo
+PO5.5 Gerenciamento de Benefícios
+PO6.1 Política de TI e Ambiente de Controle
+PO6.2 Risco de TI Corporativo e Estrutura Interna de Controle
+PO6.3 Gerenciamento de Políticas de TI
+PO6.4 Distribuição da Política
+PO6.5 Comunicação dos Objetivos e Diretrizes de TI
+PO7.1 Recrutamento e Retenção de Pessoal
+PO7.2 Competências Pessoais
+PO7.3 Preenchimento de Vagas
+PO7.4 Treinamento do Pessoal
+PO7.5 Dependência de Indivíduos
+PO7.6 Procedimentos de Liberação de Pessoal
+PO7.7 Avaliação de Desempenho Profissional
+PO7.8 Mudança e Desligamento de Cargo
+PO8.1 Sistema de Gerenciamento de Qualidade (SGQ)
+PO8.2 Padrões e Práticas de Qualidade de TI
+PO8.3 Padrões de Desenvolvimento e Aquisição
+PO8.4 Foco no Cliente
+PO8.5 Melhoria Contínua
+PO8.6 Medição, Monitoramento e Revisão da Qualidade
+PO9.1 Alinhamento da gestão de riscos de TI e de Negócios
+PO9.2 Estabelecimento do Contexto de Risco
+PO9.3 Identificação de Eventos
+PO9.4 Avaliação de Risco
+PO9.5 Resposta ao Risco
+PO9.6 Manutenção e Monitoramento do Plano de Ação de Risco
+PO10.1 Estrutura de Gestão de Programas
+PO10.2 Estrutura de Gestão de Projetos
+PO10.3 Abordagem da Gestão de Projetos
+PO10.4 Comprometimento das Partes Interessadas
+PO10.5 Declaração do Escopo do Projeto
+PO10.6 Fase de Início do Projeto
+PO10.7 Plano Integrado de Projeto
+PO10.8 Recursos do Projeto
+PO10.9 Gestão de Risco do Projeto
+PO10.11 Controle de Mudança de Projeto
+PO10.12 Planejamento de métodos de validação
+PO10.13 Medição de Desempenho, Monitoramento e Reporte do Projeto
+PO10.14 Conclusão do Projeto
+AI1.2 Relatório de Análise de Risco
+AI1.3 Estudo de Viabilidade e Formulação de Ações Alternativas
+AI1.4 Decisão e Aprovação de Requisitos e Estudo de Viabilidade
+AI2.2 Projeto Detalhado
+AI2.3 Controle e Auditabilidade do Aplicativo
+AI2.4 Segurança e Disponibilidade do Aplicativo
+AI2.5 Configuração e Implementação de Software Aplicativo Adquirido
+AI2.6 Principais Atualizações dos Sistemas Existentes
+AI2.7 Desenvolvimento de Software Aplicativo
+AI2.8 Garantia de Qualidade de Software
+AI2.9 Gestão dos Requisitos das Aplicações
+AI3.1 Plano de Aquisição de Infraestrutura Tecnológica
+AI3.2 Infraestrutura de Recursos, Proteção e Disponibilidade
+AI3.3 Manutenção da Infraestrutura
+AI3.4 Viabilidade do Ambiente de Teste
+AI4.1 Planejamento para Soluções Operacionais
+AI4.2 Transferência de Conhecimento ao Gerenciamento do Negócio
+AI4.3 Transferência de Conhecimento aos Usuários Finais
+AI4.4 Transferência de Conhecimento às Equipes de Operações e Suporte
+AI5.1 Controle de Aquisição
+AI5.2 Gerenciamento de Contratos de Fornecedores
+AI5.3 Seleção de Fornecedores
+AI5.4 Aquisição de Recursos de TI
+AI6.1 Padrões e Procedimentos de Mudança
+AI6.2 Avaliação de Impacto, Priorização e Autorização
+AI6.3 Mudanças de Emergência
+AI6.4 Acompanhamento de Status e Relatórios de Mudanças
+AI6.5 Finalização da Mudança e Documentação
+AI7.1 Treinamento
+AI7.2 Plano de Teste
+AI7.3 Plano de Implementação
+AI7.4 Ambiente de Testes
+AI7.5 Conversão de Dados e Sistemas
+AI7.6 Teste de Mudanças
+AI7.7 Teste de Aceitação Final
+AI7.8 Promoção para a Produção
+AI7.9 Revisão pós-implementação
+DS1.1 Estrutura de Gestão de Níveis de Serviço
+DS1.2 Definição de Serviços
+DS1.3 Acordos de Nível de Serviço
+DS1.4 Acordos de Nível Operacional
+DS1.5 Monitoramento e Relatório de Realizações de Nível de Serviço
+DS1.6 Revisão dos Acordos de Nível de Serviço e dos Contratos
+DS2.1 Identificação do Relacionamento com Todos os Fornecedores
+DS2.2 Gestão do Relacionamento com Fornecedores
+DS2.3 Gerenciamento de Riscos do Fornecedor
+DS2.4 Monitoramento de Desempenho do Fornecedor
+DS3.1 Desempenho e Planejamento de Capacidade
+DS3.2 Capacidade e Desempenho Atuais
+DS3.3 Capacidade e Desempenho Futuros
+DS3.4 Disponibilidade de Recursos de TI
+DS3.5 Monitoramento e Relatórios
+DS4.1 Estrutura de Continuidade
+DS4.2 Planos de Continuidade de TI
+DS4.3 Recursos Críticos de TI
+DS4.4 Manutenção do Plano de Continuidade de TI
+DS4.5 Teste do Plano de Continuidade de TI
+DS4.6 Treinamento do Plano de Continuidade de TI
+DS4.7 Distribuição do Plano de Continuidade
+DS4.8 Recuperação e Retomada dos Serviços de TI
+DS4.9 Armazenamento de Cópias de Segurança em Locais Remotos
+DS5.1 Gestão da Segurança de TI
+DS5.2 Plano de Segurança de TI
+DS5.3 Gestão de Identidade
+DS5.4 Gestão de Contas de Usuário
+DS5.5 Teste de Segurança, Vigilância e Monitoramento
+DS5.6 Definição de Incidente de Segurança
+DS5.7 Proteção da Tecnologia de Segurança
+DS5.8 Gestão de Chave Criptográfica
+DS5.9 Prevenção, Detecção e Correção de Software Malicioso
+DS5.11 Comunicação de Dados Confidenciais
+DS6.1 Definição de Serviços
+DS6.2 Contabilidade de TI
+DS6.3 Modelagem de Custo e Cobrança
+DS6.4 Manutenção do Modelo de Custo
+DS7.1 Identificação das Necessidades de Ensino e Treinamento
+DS7.2 Entrega de Treinamento e Ensino
+DS7.3 Avaliação do Treinamento Recebido
+DS8.2 Registro dos Chamados dos Clientes
+DS8.3 Escalonamento de Incidentes
+DS8.4 Encerramento de Incidente
+DS8.5 Relatórios e Análises de Tendências
+DS9.1 Repositório de Configuração e Perfis Básicos
+DS9.2 Identificação e Manutenção dos Itens de Configuração
+DS9.3 Revisão da Integridade de Configuração
+DS10.1 Identificar e Classificar os Problemas
+DS10.2 Rastreamento e Resolução de Problemas
+DS10.3 Encerramento do Problema
+DS10.4 Integração de Gerenciamento de Mudanças, Configuração e Problemas
+DS11.1 Requisitos de Negócio para o Gerenciamento de Dados
+DS11.2 Arranjos de Armazenamento e Retenção
+DS11.3 Sistema de Gerenciamento de Biblioteca de Mídia
+DS11.4 Descarte de Dados e Equipamentos
+DS11.5 Backup e Restauração
+DS11.6 Requisitos de Segurança para o Gerenciamento de Dados
+DS12.1 Seleção do Local e Layout
+DS12.2 Medidas de Segurança Física
+DS12.3 Acesso Físico
+DS12.4 Proteção contra Fatores Ambientais
+DS12.5 Gerenciamento de Instalações Físicas
+DS13.1 Procedimentos e Instruções de Operações
+DS13.2 Agendamento de Jobs
+DS13.3 Monitoramento da Infraestrutura de TI
+DS13.4 Documentos Confidenciais e Dispositivos de Saída
+DS13.5 Manutenção Preventiva de Hardware
+ME1.1 Abordagem de Monitoramento
+ME1.2 Definição e Coleta dos Dados de Monitoramento
+ME1.3 Método de Monitoramento
+ME1.4 Avaliação de Desempenho
+ME1.5 Relatórios para a Alta Direção
+ME1.6 Ações Corretivas
+ME2.1 Monitoramento da Estrutura de Controles Internos
+ME2.2 Revisão Gerencial
+ME2.3 Exceções aos Controles
+ME2.4 Autoavaliação dos Controles
+ME2.5 Garantia dos Controles Internos
+ME2.6 Controles Internos Aplicados a Terceiros
+ME2.7 Ações Corretivas
+ME3.1 Identificação dos Requisitos de Conformidade com Leis, Regulamentações e Contratos Externos
+ME3.2 Otimização da Resposta aos Requisitos Externos
+ME3.3 Avaliação da Conformidade com Requisitos Externos
+ME3.4 Assegurar a Conformidade
+ME3.5 Informes Integrados
+ME4.1 Estabelecimento de uma Estrutura de Governança de TI
+ME4.2 Alinhamento Estratégico
+ME4.3 Entrega de Valor
+ME4.4 Gerenciamento de Recursos
+ME4.5 Gestão de Riscos
+ME4.6 Medição de Desempenho
+ME4.7 Avaliação Independente
